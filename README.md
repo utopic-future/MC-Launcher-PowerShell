@@ -23,7 +23,4 @@ Minecraft\
 
 **Constraints**
 - **Not an authenticated launcher:** there is no Microsoft login, so it won't join official online servers.
-- **Untested:** I couldn't run PowerShell here, so all testing has been your runs. The first of those fixed a PowerShell 5.1 crash in the version picker. The install, Java detection and launch steps haven't been confirmed yet.
 - **Single script:** everything lives in `MCLauncher-TUI-multi.ps1`, so it's easy to move around but gets long.
-
-The remaining work is mostly validating Install and Play across a few different versions, such as 1.8.9, 1.12.2 and a recent release.
