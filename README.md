@@ -1,5 +1,5 @@
 # MC-Launcher-PowerShell
-This project is a single-file, text-based Minecraft Java Edition launcher for Windows PowerShell 5.1 that downloads and runs many game versions in offline mode, with no login. It grew from your original `Setup-Minecraft-1.8.9-PS5-fixed.ps1`, which only installed 1.8.9 and generated a `start.bat`.
+This project is a single-file, text-based Minecraft Java Edition launcher for Windows PowerShell 5.1 that downloads and runs many game versions in offline mode, with no login.
 
 **Purpose**
 It lets you install and play Minecraft on a machine that can't reach Microsoft's login servers. It uses the game's own offline path (`--accessToken 0`, `--userType legacy`) instead of authenticating, so it covers singleplayer and `online-mode=false` servers only.
